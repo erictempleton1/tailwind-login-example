@@ -23,3 +23,9 @@ use grid to space things out and sizing
 adding shadow- stripe has a pretty decent shadow
 padding for title
 
+vertical padding for text <div class="py-8 ...">py-8</div>
+had to create a tailwind.config.js file via `npx tailwindcss-cli@latest init`
+then install `@tailwindcss/forms` via npm
+and add that lib to the plugins array in the generate tailwind.config.js file
+`  plugins: [require('@tailwindcss/forms')],`
+
