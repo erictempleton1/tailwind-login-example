@@ -29,3 +29,4 @@ then install `@tailwindcss/forms` via npm
 and add that lib to the plugins array in the generate tailwind.config.js file
 `  plugins: [require('@tailwindcss/forms')],`
 
+todo - need to make responsive and resize
