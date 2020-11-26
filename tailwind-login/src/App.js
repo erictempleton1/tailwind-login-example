@@ -3,8 +3,8 @@ import './tailwind.output.css';
 
 function App() {
   return (
-    <div className="shadow-lg rounded-lg p-8 w-1/3">
-      <div className="text-xl py-4">
+    <div className="shadow-lg rounded-lg p-8">
+      <div className="text-xl pt-8">
         Sign in to your account
       </div>
       <form>
@@ -26,6 +26,14 @@ function App() {
           <div className="flex items-center">
             <input className="focus:ring-blue-200 border-gray-300 rounded" id="checkbox" type="checkbox" />
             <label className="ml-2 block" for="checkbox">Stay signed in for a week</label>
+          </div>
+        </div>
+        <div className="py-6">
+          <button type="submit" className="p-4 border w-full rounded-lg focus:outline-none focus:ring-4 focus:ring-blue-200 bg-indigo-500 text-white">Continue</button>
+        </div>
+        <div className="pb-8">
+          <div className="text-center">
+            <a className="text-indigo-600 hover:text-indigo-500" href="/">Use single sign-on (SSO) instead</a>
           </div>
         </div>
       </form>
